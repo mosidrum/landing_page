@@ -12,7 +12,7 @@ const enableDarkMode = () => {
 
 // Disable Dark Mode
 const disableDarkMode = () => {
-  document.body.classList.remove("darkMode");
+  document.body.classList.remove("darkmode");
   toggleText.textContent = "Dark";
   localStorage.setItem("darkMode", null);
 };

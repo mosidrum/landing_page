@@ -27,8 +27,8 @@ toggleDarkMode.addEventListener("click", () => {
   let darkMode = localStorage.getItem("darkMode");
 
   if (darkMode !== "enabled") {
-    disableDarkMode();
+    enableDarkMode();
   } else {
-    enableDarkMode;
+    disableDarkMode();
   }
 });
